@@ -1,5 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
-import { Meeting } from './meeting';
+import { Meeting } from 'src/entities/meeting';
 
 @Entity('users')
 export class User {
