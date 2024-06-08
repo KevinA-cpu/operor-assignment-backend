@@ -2,11 +2,10 @@ import {
   Entity,
   PrimaryGeneratedColumn,
   Column,
-  OneToMany,
   ManyToOne,
   JoinColumn,
 } from 'typeorm';
-import { User } from './User';
+import { User } from 'src/entities/User';
 
 @Entity('meetings')
 export class Meeting {
